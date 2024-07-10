@@ -8,4 +8,4 @@ O gerador de instâncias gera grafos bipartidos com $n_1$ e $n_2$ vértices nas 
 
 ## Instâncias grandes para o "bottleneck matching"
 
-Se encontram no subdiretório "bm".
+Se encontram no subdiretório "bm". As instâncias são do [Matrix Market](https://math.nist.gov/MatrixMarket). O formate é o seguinte. Na primeira linha a dimensão da matriz $n\times m$ e o número de não-zeros $z$. Nas próximas $z$ linhas, para cada entrada não zero a linha $i\in[n]$, coluna $j\in[m]$ e valor $v$.
